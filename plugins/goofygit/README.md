@@ -11,6 +11,14 @@ plugins=(... goofygit)
 
 ## Concepts
 
+| Working tree  | Staged/Index  | commit                    |
+| ------   | ------  | ----------------------- |
+| Modified  |       |                                      |
+| Untracked |       |                                      |
+| Deleted |       |                                      |
+
+
+
 | Action description   | Abbreviation  | Note                                                            |
 | ---------- | ------ | -------------------------------------------------------------------------------------- |
 |       |       |                                                          |
