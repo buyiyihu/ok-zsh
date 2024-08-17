@@ -37,7 +37,7 @@ function ggca() {
 # Revoke the last commit and meantime put changes back to working tree
 # Usage: Cannot claim specific file
 function ggcd() {
-    git reset HEAD^
+    git reset --mixed HEAD^
 }
 
 # Revoke the last commit and meantime discard all the changes
@@ -48,7 +48,7 @@ function ggdc() {
     else
         file=$1
     fi
-    git reset --hard HEAD 
+    git reset --hard HEAD
 }
 
 
